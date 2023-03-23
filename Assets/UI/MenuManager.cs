@@ -35,8 +35,9 @@ public class MenuManager : MonoBehaviour
 
     public void ClickUpgrade()
     {
-        mainMenuObject.SetActive(false);
-        upgradeMenuObject.SetActive(true);
+        //mainMenuObject.SetActive(false);
+        //upgradeMenuObject.SetActive(true);
+        SceneManager.LoadScene("shoppingPage");
     }
 
     public void ClickBack()
