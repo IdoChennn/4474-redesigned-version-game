@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,8 +8,10 @@ public class MenuManager : MonoBehaviour
 {
     public GameObject mainMenuObject;
     public GameObject playMenuObject;
-    public GameObject howToPlayMenuObject;
+    public GameObject onlineMenuObject;
+    public GameObject settingMenuObject;
     public GameObject upgradeMenuObject;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,17 +23,25 @@ public class MenuManager : MonoBehaviour
     {
         
     }
-
+/*    public void hideDisplayTittle(Boolean hideOrDisplay)
+    {
+        GameObject tittle = mainMenuObject.transform.GetChild(0).gameObject;
+        tittle.SetActive(false);
+    }*/
     public void ClickPlay()
     {
-        mainMenuObject.SetActive(false);
+        //mainMenuObject.SetActive(true);
+        GameObject tittle = mainMenuObject.transform.GetChild(0).gameObject;
+        tittle.SetActive(false);
+        //titte = mainMenuObject.transform.Find("Tittle").gameObject;
+        //titte.SetActive(false);
         playMenuObject.SetActive(true);
     }
 
-    public void ClickHowToPlay()
+    public void ClickSetting()
     {
         mainMenuObject.SetActive(false);
-        howToPlayMenuObject.SetActive(true);
+        settingMenuObject.SetActive(true);
     }
 
     public void ClickUpgrade()
@@ -42,9 +53,11 @@ public class MenuManager : MonoBehaviour
 
     public void ClickBack()
     {
-        mainMenuObject.SetActive(true);
+        GameObject tittle = mainMenuObject.transform.GetChild(0).gameObject;
+        tittle.SetActive(true);
+        //mainMenuObject.SetActive(true);
         playMenuObject.SetActive(false);
-        howToPlayMenuObject.SetActive(false);
+       // howToPlayMenuObject.SetActive(false);
         upgradeMenuObject.SetActive(false);
     }
 

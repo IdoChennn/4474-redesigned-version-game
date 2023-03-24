@@ -1303,8 +1303,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 80100085}
   m_HandleRect: {fileID: 80100084}
   m_Direction: 0
-  m_Value: -0.00003051944
-  m_Size: 0.99875164
+  m_Value: -0.000030517578
+  m_Size: 0.9987516
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2616,7 +2616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb4a4eeff5340fb4b9421d3b00303f0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 100
+  coins: 1000
   CoinsTXT: {fileID: 1138623990}
 --- !u!4 &2101421349
 Transform:
