@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    public GameObject uiObject;
     public GameObject mainMenuObject;
     public GameObject playMenuObject;
     public GameObject onlineMenuObject;
     public GameObject settingMenuObject;
     public GameObject upgradeMenuObject;
-
+    public GameObject sub_menuObject;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,11 +30,16 @@ public class MenuManager : MonoBehaviour
         GameObject tittle = mainMenuObject.transform.GetChild(0).gameObject;
         tittle.SetActive(false);
     }*/
-    public void ClickPlay()
+    public void ClickCampaign()
     {
         //mainMenuObject.SetActive(true);
         GameObject tittle = mainMenuObject.transform.GetChild(0).gameObject;
+        GameObject bgv = uiObject.transform.GetChild(0).gameObject;
         tittle.SetActive(false);
+        bgv.SetActive(false);
+        
+        sub_menuObject.SetActive(true);
+
         //titte = mainMenuObject.transform.Find("Tittle").gameObject;
         //titte.SetActive(false);
         playMenuObject.SetActive(true);
@@ -54,9 +61,12 @@ public class MenuManager : MonoBehaviour
     public void ClickBack()
     {
         GameObject tittle = mainMenuObject.transform.GetChild(0).gameObject;
+        GameObject bgv = uiObject.transform.GetChild(0).gameObject;
         tittle.SetActive(true);
+        bgv.SetActive(true);
         //mainMenuObject.SetActive(true);
         playMenuObject.SetActive(false);
+        sub_menuObject.SetActive(false);
        // howToPlayMenuObject.SetActive(false);
         upgradeMenuObject.SetActive(false);
     }
