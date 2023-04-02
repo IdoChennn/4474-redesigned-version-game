@@ -23,9 +23,10 @@ public class SubMenuManager : MonoBehaviour
     {
         foreach (Transform child in CampaignMenu.transform)
         {
-
+            if (!child.gameObject.CompareTag("SubMenu"))
+            {
                 child.gameObject.SetActive(false);
-            
+            }
         }
     }
 

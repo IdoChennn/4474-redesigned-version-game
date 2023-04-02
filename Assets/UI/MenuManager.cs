@@ -1,30 +1,44 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
-    public GameObject uiObject;
-    public GameObject mainMenuObject;
     public GameObject CampaginMenuObject;
     public GameObject onlineMenuObject;
-    public GameObject settingMenuObject;
+    public GameObject settingsMenuObject;
     public GameObject upgradeMenuObject;
-    public GameObject sub_menuObject;
-    
+    public GameObject homeMenuObject;
+    public GameObject achievementMenuObject;
+
+    public Button homeButton;
+    public Button campaignButton;
+    public Button onlineButton;
+    public Button settingsButton;
+    public Button achievementButton;
+    public List<GameObject> menuObjectList;
+    public List<Button> buttonList;
+
     // Start is called before the first frame update
 
-    public void hideMainElement()
+    private void Start()
     {
-        GameObject tittle = mainMenuObject.transform.GetChild(0).gameObject;
-        GameObject bgv = uiObject.transform.GetChild(0).gameObject;
-        tittle.SetActive(false);
-        bgv.SetActive(false);
+        //this order is very important do not touch
+        menuObjectList.Add(homeMenuObject);         //0
+        buttonList.Add(homeButton);
+        menuObjectList.Add(CampaginMenuObject);     //1
+        buttonList.Add(campaignButton);
+        menuObjectList.Add(onlineMenuObject);       //2
+        buttonList.Add(onlineButton);
+        menuObjectList.Add(settingsMenuObject);     //3
+        buttonList.Add(settingsButton);
+        menuObjectList.Add(achievementMenuObject);  //4
+        buttonList.Add(achievementButton);
     }
-    public void displaySubMenu(string whichButton)
+
+    /*
+    public void DisplaySubMenu(string whichButton)
     {
         sub_menuObject.SetActive(true);
         foreach(Transform child in sub_menuObject.transform)
@@ -42,36 +56,42 @@ public class MenuManager : MonoBehaviour
             }
         }
     }
-    public void ClickCampaign()
-    {
-        hideMainElement();
-        displaySubMenu("Campaign_sub");
-        CampaginMenuObject.SetActive(true);
-    }
-    public void clickOnline()
-    {
-        displaySubMenu("Online_sub");
-    }
-    public void ClickSetting()
-    {
-        mainMenuObject.SetActive(false);
-        settingMenuObject.SetActive(true);
-    }
+    */
 
-    public void ClickUpgrade()
+    public void DisplayMenu(int menuOption)
     {
-        SceneManager.LoadScene("shoppingPage");
+        foreach(GameObject menuObject in menuObjectList)
+        {
+            menuObject.SetActive(false);
+        }
+        menuObjectList[menuOption].SetActive(true);
+        foreach(Button menuButton in buttonList)
+        {
+            menuButton.interactable = true;
+        }
+        buttonList[menuOption].interactable = false;
     }
 
     public void ClickHome()
     {
-        GameObject tittle = mainMenuObject.transform.GetChild(0).gameObject;
-        GameObject bgv = uiObject.transform.GetChild(0).gameObject;
-        tittle.SetActive(true);
-        bgv.SetActive(true);
-        CampaginMenuObject.SetActive(false);
-        sub_menuObject.SetActive(false);
-        upgradeMenuObject.SetActive(false);
+        DisplayMenu(0);
+    }
+
+    public void ClickCampaign()
+    {
+        DisplayMenu(1);
+    }
+    public void ClickOnline()
+    {
+        DisplayMenu(2);
+    }
+    public void ClickSettings()
+    {
+        DisplayMenu(3);
+    }
+    public void ClickAchievement()
+    {
+        DisplayMenu(4);
     }
 
     public void ClickRaceMode()
@@ -83,7 +103,6 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("CombatScene");
     }
-
 
     public void ClickQuit()
     {

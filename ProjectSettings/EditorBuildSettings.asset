@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/NewMainMenu.unity
     guid: c970a51d34b004a91be3be2446375aa7
   - enabled: 1
     path: Assets/Scenes/PlaneRace.unity
