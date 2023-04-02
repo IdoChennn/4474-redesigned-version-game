@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="974c2e79-4ae7-46d5-a6ee-78036267b735" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_3_28_20_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_3_28_20_43__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NewMainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NewMainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/PauseManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
