@@ -23,8 +23,8 @@ public class cameraMenuMover : MonoBehaviour
         switch (buttonIdentifier)
         {
             case "Campaign":
-                newPosition = new Vector3(292f, 5f, 167f);
-                newRotation = Quaternion.Euler(0f, 0f, 0f);
+                newPosition = new Vector3(292f, 2.261f, 167f);
+                newRotation = Quaternion.Euler(7.873002f, 90f, 0f);
                 break;
             case "Online":
                 newPosition = new Vector3(350f, 5f, 167f);

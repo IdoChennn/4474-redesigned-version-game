@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Event
+  - Clone
+  - MInfo
   layers:
   - Default
   - TransparentFX
