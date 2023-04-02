@@ -7,11 +7,15 @@ public class MainMenuController : MonoBehaviour
 {
     private Button[] buttons;
     public GameObject missilePanel;
-    public GameObject missileInfomationPanel;
+    public GameObject missileInformationPanel;
+    public GameObject aircraftPanel;
+    public GameObject aircraftInformationPanel;
     private void disableAll() {
         List<GameObject> objectList = new List<GameObject>();
         objectList.Add(missilePanel);
-        objectList.Add(missileInfomationPanel);
+        objectList.Add(missileInformationPanel);
+        objectList.Add(aircraftPanel);
+        objectList.Add(aircraftInformationPanel);
         foreach (GameObject objs in objectList)
         {
             // Check if the object was found
@@ -77,7 +81,7 @@ public class MainMenuController : MonoBehaviour
             // Check if the clicked object is button1
             if (clickedObj.name == "AircraftButton")
             {
-                Debug.Log("AircraftButton clicked!");
+                aircraftPanel.SetActive(true);
 
             }
 

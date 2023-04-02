@@ -8,9 +8,26 @@ public class MissleInformationPanel : MonoBehaviour, IPointerClickHandler
 
     public GameObject missilePanel;
     public GameObject missileInfomationPanel;
+    public Button purchase;
     //public Text labelPrefab;
-    private void disableAll()
+
+    private void Start()
     {
+        purchase.onClick.AddListener(OnPurchaseClick);
+    }
+
+    private void OnPurchaseClick()
+    {
+        GameObject clickedObj = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
+        if (clickedObj != null)
+        {
+            disableAll();
+            missilePanel.SetActive(true);
+        }
+    }
+
+
+    private void disableAll(){
         List<GameObject> objectList = new List<GameObject>();
         objectList.Add(missilePanel);
         objectList.Add(missileInfomationPanel);
@@ -73,8 +90,10 @@ public class MissleInformationPanel : MonoBehaviour, IPointerClickHandler
     private void disableAllMissileInfo() {
         for (int i = 0; i < missileInfomationPanel.transform.childCount; i++)
         {
+            
             GameObject childObject = missileInfomationPanel.transform.GetChild(i).gameObject;
-            childObject.SetActive(false);
+            if(childObject.name != "PurchaseButton")
+                childObject.SetActive(false);
         }
     }
 
