@@ -10,6 +10,8 @@ public class MainMenuController : MonoBehaviour
     public GameObject missileInformationPanel;
     public GameObject aircraftPanel;
     public GameObject aircraftInformationPanel;
+    public GameObject mainPage;
+    public GameObject shopPage;
     private void disableAll() {
         List<GameObject> objectList = new List<GameObject>();
         objectList.Add(missilePanel);
@@ -84,7 +86,6 @@ public class MainMenuController : MonoBehaviour
             if (clickedObj.name == "AircraftButton")
             {
                 aircraftPanel.SetActive(true);
-
             }
 
             // Check if the clicked object is button2
@@ -96,6 +97,12 @@ public class MainMenuController : MonoBehaviour
             else if (clickedObj.name == "UpgradeButton")
             {
                 Debug.Log("UpgradeButton clicked!");
+            }
+            else if (clickedObj.name == "BackButton")
+            {
+
+                shopPage.SetActive(false);
+                mainPage.SetActive(true);
             }
             else
             {
