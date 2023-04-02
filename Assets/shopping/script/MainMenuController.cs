@@ -52,6 +52,8 @@ public class MainMenuController : MonoBehaviour
     private void Start()
     {
         disableAll();
+        aircraftPanel.SetActive(true);
+
         // Get all the Button components in the scene
         buttons = FindObjectsOfType<Button>();
 
