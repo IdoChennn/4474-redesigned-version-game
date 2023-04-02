@@ -30,6 +30,11 @@ public class cameraMenuMover : MonoBehaviour
                 newPosition = new Vector3(350f, 5f, 167f);
                 newRotation = Quaternion.Euler(0f, 0f, 0f);
                 break;
+            case "Achievement":
+                newPosition = new Vector3(350f, 5f, 167f);
+                newRotation = Quaternion.Euler(0f, 0f, 0f);
+                break;
+
             // Add more cases for each button
             default:
                 newPosition = initialPosition;
