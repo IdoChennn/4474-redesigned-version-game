@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465788, g: 0.49641287, b: 0.5748173, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5975,7 +5975,7 @@ RectTransform:
   m_GameObject: {fileID: 523437866}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2476, y: 1.2476, z: 1.2476}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 627602881}
@@ -5984,8 +5984,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 9.8845215}
-  m_SizeDelta: {x: 1880, y: 1087.1506}
+  m_AnchoredPosition: {x: 0, y: 1.3192139}
+  m_SizeDelta: {x: 1880, y: 1070.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &523437868
 MonoBehaviour:
@@ -7319,7 +7319,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627602880}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 57a7dd75e5dbb3045a69b62cfb40930a, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 9b4527138fbf0e14ea91dc752319b644, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -7332,14 +7332,12 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 01
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 1
