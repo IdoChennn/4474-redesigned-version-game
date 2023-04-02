@@ -8,9 +8,6 @@ public class MissleInformationPanel : MonoBehaviour, IPointerClickHandler
 
     public GameObject missilePanel;
     public GameObject missileInfomationPanel;
-    public GameObject barPrefab;
-    public Vector2 startPosition;
-    public float maxHeight;
     //public Text labelPrefab;
     private void disableAll()
     {
@@ -53,7 +50,7 @@ public class MissleInformationPanel : MonoBehaviour, IPointerClickHandler
     {
         disableAll();
         missileInfomationPanel.SetActive(true);
-        generateBarChart(new float[] {100,90,90, 85, 90});
+        disableAllMissileInfo();
 
 
         // Get the GameObject that was clicked on
@@ -65,7 +62,7 @@ public class MissleInformationPanel : MonoBehaviour, IPointerClickHandler
         // Check if an Image component was found
         if (clickedImage != null)
         {
-            Debug.Log("Image " + clickedImage.name + " was clicked!");
+            activeMissile(clickedImage);
         }
         else
         {
@@ -73,37 +70,59 @@ public class MissleInformationPanel : MonoBehaviour, IPointerClickHandler
         }
     }
 
-    private void generateBarChart(float[] barHeights)
-    {
-        
-        Color barColor = Color.white;
-        float barWidth = 50f;
-        float barSpacing = 10f;
-
-        //Vector2 startPosition = new Vector2(-1400,360);
-        for (int i = 0; i < barHeights.Length; i++)
+    private void disableAllMissileInfo() {
+        for (int i = 0; i < missileInfomationPanel.transform.childCount; i++)
         {
-            // Create a new bar
-            GameObject bar = Instantiate(barPrefab);
-            bar.tag = "Clone";
-
-            // Set the bar's height
-            float height = barHeights[i] / maxHeight;
-            bar.GetComponent<RectTransform>().sizeDelta = new Vector2(barWidth, height * maxHeight);
-
-            // Set the bar's position
-            float x = startPosition.x + i * (barWidth + barSpacing);
-            float y = startPosition.y + height * maxHeight / 2f;
-
-            bar.GetComponent<RectTransform>().position = new Vector3(x, y);
-
-            // Set the bar's color
-            bar.GetComponent<Image>().color = barColor;
-
-            // Set the bar's parent to this transform
-            bar.transform.SetParent(barPrefab.transform);
+            GameObject childObject = missileInfomationPanel.transform.GetChild(i).gameObject;
+            childObject.SetActive(false);
         }
     }
-        
+
+    private void activeMINFO(string name) {
+      
+        for (int i = 0; i < missileInfomationPanel.transform.childCount; i++)
+        {
+            GameObject childObject = missileInfomationPanel.transform.GetChild(i).gameObject;
+
+            if (childObject.name == name)
+                childObject.SetActive(true);
+        }
+
+    }
+    private void activeMissile(Image clickedImage) {
+        if (clickedImage.name == "Missile1")
+        {
+            activeMINFO("Missile1Info");
+        }
+        else if (clickedImage.name == "Missile2")
+        {
+            activeMINFO("Missile2Info");
+        }
+        else if (clickedImage.name == "Missile3")
+        {
+            activeMINFO("Missile3Info");
+        }
+        else if (clickedImage.name == "Missile4")
+        {
+            activeMINFO("Missile4Info");
+        }
+        else if (clickedImage.name == "Missile5")
+        {
+            activeMINFO("Missile5Info");
+        }
+        else if (clickedImage.name == "Missile6")
+        {
+            activeMINFO("Missile6Info");
+        }
+        else if (clickedImage.name == "Missile7")
+        {
+            activeMINFO("Missile7Info");
+        }
+        else if (clickedImage.name == "Missile8")
+        {
+            activeMINFO("Missile8Info");
+        }
+    }
+
 }
 
