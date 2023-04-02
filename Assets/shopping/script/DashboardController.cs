@@ -80,7 +80,7 @@ public class DashboardController : MonoBehaviour
             }
             else if (clickedObj.name == "StartGame")
             {
-                SceneManager.LoadScene("CombatScene");
+                SceneManager.LoadScene("PlaneRace");
             }
             else
             {

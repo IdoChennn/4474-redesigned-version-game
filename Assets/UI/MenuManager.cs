@@ -76,12 +76,12 @@ public class MenuManager : MonoBehaviour
 
     public void ClickRaceMode()
     {
-        SceneManager.LoadScene("PlaneRace");
+        SceneManager.LoadScene("shoppingPage");
     }
 
     public void ClickCombatMode()
     {
-        SceneManager.LoadScene("CombatScene");
+        SceneManager.LoadScene("shoppingPage");
     }
 
 
