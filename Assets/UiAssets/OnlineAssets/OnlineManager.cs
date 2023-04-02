@@ -29,6 +29,7 @@ public class OnlineManager : MonoBehaviour
     public void goBackModeSelection()
     {
         afterSelectWindow.SetActive(false);
+        StartGameButton.interactable = false;
     }
     public void pressStart()
     {

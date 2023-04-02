@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="974c2e79-4ae7-46d5-a6ee-78036267b735" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_3_28_20_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_3_28_20_43__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NewMainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NewMainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/PauseManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    <list default="true" id="974c2e79-4ae7-46d5-a6ee-78036267b735" name="Changes" comment="Add online menu and pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/OnlineAssets/OnlineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/OnlineAssets/OnlineManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680406391163</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add online menu and pages">
+      <created>1680475681386</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680475681386</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello world" />
     <MESSAGE value="Top Bar further update and add more screens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Top Bar further update and add more screens" />
+    <MESSAGE value="Add online menu and pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add online menu and pages" />
   </component>
 </project>
