@@ -11879,7 +11879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3671c114ac4b942b64988dac8ea2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HomeButton: {fileID: 0}
+  HomeButton: {fileID: 1466378866}
   CampaignButton: {fileID: 1955841022}
   OnlineButton: {fileID: 1934544107}
   SettingButton: {fileID: 286697412}
