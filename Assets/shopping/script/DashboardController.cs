@@ -4,12 +4,14 @@ using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
+
 public class DashboardController : MonoBehaviour
 {
     private Button[] buttons;
     public GameObject hangerPage;
     public GameObject shopPage;
     public GameObject mainPage;
+    public GameObject aircraftPage;
 
 
     private void disableAll()
@@ -69,7 +71,7 @@ public class DashboardController : MonoBehaviour
             if (clickedObj.name == "Shop")
             {
                 shopPage.SetActive(true);
-
+                aircraftPage.SetActive(true);
 
             }
 
