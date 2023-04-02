@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Clone
-  - MInfo
+  - Event
+  - SubMenu
+  - ButtonClickSound
   layers:
   - Default
   - TransparentFX
