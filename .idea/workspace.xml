@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="974c2e79-4ae7-46d5-a6ee-78036267b735" name="Changes" comment="ido updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CombatScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CombatScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NewMainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NewMainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/1125975.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/1125975.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/Home.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/Home.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/art-nebo-vozdushnyy-boy-pobeda.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/art-nebo-vozdushnyy-boy-pobeda.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/clickCursor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/clickCursor.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/cursor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/cursor.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/cursor2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/cursor2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/istockphoto-1362422378-170667a.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/istockphoto-1362422378-170667a.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/kisspng-medicine-medical-cannabis-physician-health-care-cl-free-high-quality-plus-icon-5ab0d3d22b5001.1286129315215380021774.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/kisspng-medicine-medical-cannabis-physician-health-care-cl-free-high-quality-plus-icon-5ab0d3d22b5001.1286129315215380021774.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/pexels-photo-6985265.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/pexels-photo-6985265.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/pngegg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/pngegg.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/shopping/script/DashboardController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/shopping/script/DashboardController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
