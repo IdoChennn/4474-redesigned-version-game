@@ -425,7 +425,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Skyhawk--$3,500,000
+  m_text: 'J-20--$3,500,000
 
 '
   m_isRightToLeft: 0
@@ -747,7 +747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Shadowfire Striker--$11500
+  m_text: 'AIM-9 Sidewinder--$11500
 
 '
   m_isRightToLeft: 0
@@ -963,7 +963,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Shadowfire Striker is a highly effective missile system that delivers significant
+  m_text: AIM-9 Sidewinder is a highly effective missile system that delivers significant
     damage to targets with its powerful warhead. It boasts incredible speed and maneuverability,
     allowing it to outpace and outmaneuver enemy defenses. While it may not be the
     most durable missile, its high speed and explosive power make it a valuable weapon
@@ -1334,7 +1334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cyclone--$3,9000,000
+  m_text: 'MiG-35--$3,9000,000
 
 '
   m_isRightToLeft: 0
@@ -1471,7 +1471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Skyblade--$2,500,000
+  m_text: 'Su-35--$2,500,000
 
 '
   m_isRightToLeft: 0
@@ -1608,7 +1608,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Shadowfire Striker--$11500
+  m_text: 'AIM-9 Sidewinder--$11500
 
 '
   m_isRightToLeft: 0
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The Thunderclap is a military aircraft designed for precision operations
+  m_text: 'Eurofighter Typhoon is a military aircraft designed for precision operations
     and versatile utility capabilities. With its advanced control systems and fine-tuned
     maneuverability, it can navigate complex terrain and perform precise maneuvers.
     While it may lack top speed, its superior utility capabilities and weapons systems
@@ -1884,7 +1884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Skyhawk--$3,500,000
+  m_text: 'J-20--$3,500,000
 
 '
   m_isRightToLeft: 0
@@ -2074,7 +2074,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thunderhawk--$2,200,000
+  m_text: 'F-35 Lightning II--$2,200,000
 
 '
   m_isRightToLeft: 0
@@ -2139,7 +2139,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -47.53646, y: 2.9752617, z: -43.71655, w: 34.766926}
+  m_margin: {x: -47.53646, y: 2.9752617, z: -93.28645, w: 34.766926}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2211,7 +2211,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thunderbolt Viper--$9900
+  m_text: 'AGM-114 Hellfire--$9900
 
 '
   m_isRightToLeft: 0
@@ -2348,7 +2348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Titan''s Fury--$19900
+  m_text: 'Tomahawk cruise missile--$19900
 
 '
   m_isRightToLeft: 0
@@ -2780,7 +2780,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thunderstrike is a missile system that delivers devastating damage to targets
+  m_text: AGM-158 JASSM is a missile system that delivers devastating damage to targets
     with its explosive warhead. While its utility is limited, its high speed and
     fine-tuned control systems allow for precise targeting and maneuvering, making
     it an effective weapon in skilled hands. However, its durability is limited,
@@ -3501,7 +3501,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Vortex Buster--$9800
+  m_text: 'BGM-71 TOW--$9800
 
 '
   m_isRightToLeft: 0
@@ -3928,11 +3928,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Stalwart Hammer is a missile system that delivers significant damage to
-    targets with its powerful warhead, capable of penetrating even heavily armored
-    targets. Though its utility is limited, its high speed and fine-tuned control
-    systems allow for precise targeting and maneuvering, making it an effective weapon
-    in skilled hands. '
+  m_text: 'DF-21D is a missile system that delivers significant damage to targets
+    with its powerful warhead, capable of penetrating even heavily armored targets.
+    Though its utility is limited, its high speed and fine-tuned control systems
+    allow for precise targeting and maneuvering, making it an effective weapon in
+    skilled hands. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4067,11 +4067,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The Cyclone is a military aircraft designed for high-speed operations
-    and devastating attacks. Its powerful armament and advanced targeting systems
-    allow it to deal significant damage to enemy targets with precision accuracy,
-    while its fine-tuned control systems make it highly maneuverable and effective
-    in both offensive and defensive operations. '
+  m_text: 'MiG-35 is a military aircraft designed for high-speed operations and devastating
+    attacks. Its powerful armament and advanced targeting systems allow it to deal
+    significant damage to enemy targets with precision accuracy, while its fine-tuned
+    control systems make it highly maneuverable and effective in both offensive and
+    defensive operations. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4206,7 +4206,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Stalwart Hammer--$99999
+  m_text: 'DF-21D--$99999
 
 '
   m_isRightToLeft: 0
@@ -4379,9 +4379,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Skyblade--$2,500,000
-
-'
+  m_text: Su-35--$2,500,000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5037,7 +5035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Shadowstrike--$2,200,200
+  m_text: 'F-22 Raptor--$2,200,200
 
 '
   m_isRightToLeft: 0
@@ -5151,7 +5149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4, y: -121}
+  m_AnchoredPosition: {x: -41, y: -121}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &761374817
@@ -5174,7 +5172,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Iron Sentinel--$9000
+  m_text: 'RIM-66 Standard--$9000
 
 
 '
@@ -5240,7 +5238,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 2.9752617, z: -45.542965, w: 34.766926}
+  m_margin: {x: 0, y: 2.9752617, z: -108.04167, w: 34.766926}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5289,7 +5287,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22, y: -121}
+  m_AnchoredPosition: {x: -56, y: -121}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &824588142
@@ -5312,7 +5310,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thunderclap--$3,000,000
+  m_text: 'Eurofighter Typhoon--$3,000,000
 
 '
   m_isRightToLeft: 0
@@ -5377,7 +5375,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 2.9752617, z: -101.93359, w: 34.766926}
+  m_margin: {x: 0, y: 2.9752617, z: -151.5, w: 34.766926}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5601,7 +5599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &855411872
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5641,7 +5639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &907949589
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5928,7 +5926,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thunderbolt Viper is a powerful missile system that delivers significant
+  m_text: AGM-114 Hellfire is a powerful missile system that delivers significant
     damage to targets with its explosive warhead. Although it may not be the fastest
     missile, its high level of toughness allows it to withstand significant amounts
     of enemy fire. While its control systems may not be the most advanced, it is
@@ -6211,7 +6209,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thunderclap--$3,000,000
+  m_text: Eurofighter Typhoon--$3,000,000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6346,11 +6344,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Thunderhawk is a military aircraft that excels in both offensive and
-    defensive capabilities. With its powerful armament and advanced technology, it
-    can deal significant damage to enemy targets while also providing valuable support
-    to friendly forces. Its high speed and maneuverability make it an effective tool
-    for both reconnaissance and combat
+  m_text: F-35 Lightning II is a military aircraft that excels in both offensive
+    and defensive capabilities. With its powerful armament and advanced technology,
+    it can deal significant damage to enemy targets while also providing valuable
+    support to friendly forces. Its high speed and maneuverability make it an effective
+    tool for both reconnaissance and combat
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6769,10 +6767,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The Skyhawk is a military aircraft designed for high-speed operations
-    and devastating attacks. Its advanced armament and superior speed allow it to
-    deal significant damage to enemy targets, while its fine-tuned control systems
-    make it highly maneuverable and effective in both offensive and defensive operations. '
+  m_text: 'J-20 is a military aircraft designed for high-speed operations and devastating
+    attacks. Its advanced armament and superior speed allow it to deal significant
+    damage to enemy targets, while its fine-tuned control systems make it highly
+    maneuverable and effective in both offensive and defensive operations. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6907,7 +6905,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Iron Sentinel is a reliable missile system that delivers decent damage
+  m_text: RIM-66 Standard is a reliable missile system that delivers decent damage
     to targets with its sturdy warhead. Its utility is average, making it suitable
     for a variety of combat situations. Though it may not be the fastest missile,
     its advanced control systems allow for precise targeting and maneuvering, making
@@ -7124,7 +7122,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Swift Strike is a missile system that excels in speed and maneuverability,
+  m_text: AIM-120 AMRAAM  is a missile system that excels in speed and maneuverability,
     making it difficult for enemy defenses to intercept. While its damage output
     is moderate and utility is limited, its advanced control systems allow for precision
     targeting and evasion tactics, making it an effective weapon in skilled hands.
@@ -8197,7 +8195,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vortex Buster is an incredibly destructive missile system, capable of inflicting
+  m_text: BGM-71 TOW is an incredibly destructive missile system, capable of inflicting
     massive damage to even the most heavily armored targets. Although it may not
     be the fastest missile, its advanced control systems allow for precise targeting
     and maneuvering, making it an effective weapon in any situation. However, due
@@ -8337,7 +8335,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Iron Sentinel--$9000
+  m_text: 'RIM-66 Standard--$9000
 
 '
   m_isRightToLeft: 0
@@ -9207,9 +9205,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thunderstrike--$29900
-
-'
+  m_text: AGM-158 JASSM--$29900
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9542,7 +9538,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thunderbolt Viper--$9900
+  m_text: 'AGM-114 Hellfire--$9900
 
 '
   m_isRightToLeft: 0
@@ -9756,7 +9752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Swift Strike--$15000
+  m_text: 'AIM-120 AMRAAM--$15000
 
 '
   m_isRightToLeft: 0
@@ -9893,11 +9889,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Skyblade is a military aircraft designed for precise and controlled
-    operations. Its advanced control systems make it highly maneuverable, while its
-    powerful armament can deal devastating damage to enemy targets. However, its
-    slow speed and lack of utility capabilities make it unsuited for certain missions,
-    and its weak armor leaves it vulnerable to heavy fire.
+  m_text: Su-35 is a military aircraft designed for precise and controlled operations.
+    Its advanced control systems make it highly maneuverable, while its powerful
+    armament can deal devastating damage to enemy targets. However, its slow speed
+    and lack of utility capabilities make it unsuited for certain missions, and its
+    weak armor leaves it vulnerable to heavy fire.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10166,7 +10162,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1813615003
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10651,8 +10647,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Shadowstrike is a military aircraft designed for high-speed operations
-    and devastating attacks. While it lacks precise control capabilities, its exceptional
+  m_text: F-22 Raptor is a military aircraft designed for high-speed operations and
+    devastating attacks. While it lacks precise control capabilities, its exceptional
     speed and advanced armament make it a formidable force on the battlefield. However,
     its weak armor and limited durability make it vulnerable to enemy fire, requiring
     skilled pilots to utilize hit-and-run tactics to maximize its effectiveness.
@@ -10790,12 +10786,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Titan's Fury is a missile system that packs a powerful punch, capable of
-    inflicting significant damage to even heavily armored targets. While its utility
-    is limited, its high speed and advanced control systems allow for precise targeting
-    and evasion tactics, making it an effective weapon in skilled hands. However,
-    its durability is limited, and it may not withstand prolonged exposure to enemy
-    fire.
+  m_text: Tomahawk cruise missile is a missile system that packs a powerful punch,
+    capable of inflicting significant damage to even heavily armored targets. While
+    its utility is limited, its high speed and advanced control systems allow for
+    precise targeting and evasion tactics, making it an effective weapon in skilled
+    hands. However, its durability is limited, and it may not withstand prolonged
+    exposure to enemy fire.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11042,7 +11038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4, y: -123}
+  m_AnchoredPosition: {x: -49, y: -123}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1897095190
@@ -11065,7 +11061,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Swift Strike--$15000
+  m_text: 'AIM-120 AMRAAM--$15000
 
 
 '
@@ -11131,7 +11127,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 2.9752617, z: -43.71655, w: 34.766926}
+  m_margin: {x: 0, y: 2.9752617, z: -101.90625, w: 34.766926}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11203,7 +11199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cyclone--$3,9000,000
+  m_text: 'MiG-35--$3,9000,000
 
 
 '
@@ -11341,9 +11337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thunderhawk--$2,200,000
-
-'
+  m_text: F-35 Lightning II--$2,200,000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11478,7 +11472,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thunderstrike--$29900
+  m_text: AGM-158 JASSM--$29900
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11541,7 +11535,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 2.9752617, z: -74.209625, w: 34.766926}
+  m_margin: {x: 0, y: 2.9752617, z: -100.065094, w: 34.766926}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11590,7 +11584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11, y: -123}
+  m_AnchoredPosition: {x: -56, y: -123}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960377298
@@ -11613,7 +11607,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Titan''s Fury--$19900
+  m_text: 'Tomahawk cruise--$19900
 
 '
   m_isRightToLeft: 0
@@ -11678,7 +11672,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 2.9752617, z: -43.71655, w: 34.766926}
+  m_margin: {x: 0, y: 2.9752617, z: -162.24219, w: 34.766926}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11750,7 +11744,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Shadowstrike--$2,200,200
+  m_text: 'F-22 Raptor--$2,200,200
 
 
 '
@@ -11926,7 +11920,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1986250674
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12296,7 +12290,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Vortex Buster--$9800
+  m_text: 'BGM-71 TOW--$9800
 
 '
   m_isRightToLeft: 0
@@ -12627,9 +12621,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Stalwart Hammer--$99999
-
-'
+  m_text: DF-21D--$99999
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
