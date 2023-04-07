@@ -4,8 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Clone
+  - Event
+  - SubMenu
+  - ButtonClickSound
+  - Terrain
   - MInfo
+  - GameManager
+  - UpdateManager
   layers:
   - Default
   - TransparentFX
