@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using TMPro;
 
 public class AircraftInformationPanel : MonoBehaviour, IPointerClickHandler
 {
@@ -10,7 +11,39 @@ public class AircraftInformationPanel : MonoBehaviour, IPointerClickHandler
     public GameObject missileInfomationPanel;
     public Button purchase;
     //public Text labelPrefab;
+    public TextMeshProUGUI moneyComponent;
+    public TextMeshProUGUI enginePowerComponent;
+    public TextMeshProUGUI maneuverabilityComponent;
+    public TextMeshProUGUI hpComponent;
 
+    public void updateMoney(string money)
+    {
+        string temp = moneyComponent.text;
+        float result = float.Parse(temp) + float.Parse(money);
+        if (result <= 0)
+        {
+            result = 0;
+        }
+        moneyComponent.text = result.ToString();
+    }
+    public void updateEngine(string money)
+    {
+        string temp = enginePowerComponent.text;
+        float result = float.Parse(temp) + float.Parse(money);
+        enginePowerComponent.text = result.ToString();
+    }
+    public void updateManeuverability(string money)
+    {
+        string temp = maneuverabilityComponent.text;
+        float result = float.Parse(temp) + float.Parse(money);
+        maneuverabilityComponent.text = result.ToString();
+    }
+    public void updateHP(string money)
+    {
+        string temp = hpComponent.text;
+        float result = float.Parse(temp) + float.Parse(money);
+        hpComponent.text = result.ToString();
+    }
     private void Start()
     {
         purchase.onClick.AddListener(OnPurchaseClick);
@@ -101,26 +134,51 @@ public class AircraftInformationPanel : MonoBehaviour, IPointerClickHandler
         if (clickedImage.name == "Aircraft1")
         {
             activeMINFO("AircraftInfo1");
+            updateEngine("50");
+            updateManeuverability("20");
+            updateHP("10");
+            updateMoney("-9900");
         }
         else if (clickedImage.name == "Aircraft2")
         {
+
             activeMINFO("AircraftInfo2");
+            updateEngine("50");
+            updateManeuverability("30");
+            updateHP("15");
+            updateMoney("-9900");
         }
         else if (clickedImage.name == "Aircraft3")
         {
             activeMINFO("AircraftInfo3");
+            updateEngine("55");
+            updateManeuverability("40");
+            updateHP("20");
+            updateMoney("-9900");
         }
         else if (clickedImage.name == "Aircraft4")
         {
             activeMINFO("AircraftInfo4");
+            updateEngine("60");
+            updateManeuverability("45");
+            updateHP("15");
+            updateMoney("-9900");
         }
         else if (clickedImage.name == "Aircraft5")
         {
             activeMINFO("AircraftInfo5");
+            updateEngine("50");
+            updateManeuverability("30");
+            updateHP("15");
+            updateMoney("-9900");
         }
         else if (clickedImage.name == "Aircraft6")
         {
             activeMINFO("AircraftInfo6");
+            updateEngine("80");
+            updateManeuverability("30");
+            updateHP("10");
+            updateMoney("-9900");
         }
     }
 

@@ -78,7 +78,7 @@ public class DashboardController : MonoBehaviour
             // Check if the clicked object is button2
             else if (clickedObj.name == "Hanger")
             {
-                hangerPage.SetActive(true);
+                SceneManager.LoadScene("NewMainMenu");
             }
             else if (clickedObj.name == "StartGame")
             {
