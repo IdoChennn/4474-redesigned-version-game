@@ -6,9 +6,7 @@ using UnityEngine.UIElements;
 public class SubMenuManager : MonoBehaviour
 {
     public GameObject CampaignSub;
-    public GameObject OnlineSub;
     public GameObject CampaignMenu;
-    public GameObject OnlineMenu;
     void Start()
     {
         
@@ -23,9 +21,10 @@ public class SubMenuManager : MonoBehaviour
     {
         foreach (Transform child in CampaignMenu.transform)
         {
-
+            if (!child.gameObject.CompareTag("SubMenu"))
+            {
                 child.gameObject.SetActive(false);
-            
+            }
         }
     }
 
