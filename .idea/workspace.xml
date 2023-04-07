@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="974c2e79-4ae7-46d5-a6ee-78036267b735" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_3_28_20_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_3_28_20_43__Changes_.xml" afterDir="false" />
+    <list default="true" id="974c2e79-4ae7-46d5-a6ee-78036267b735" name="Changes" comment="ido updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CombatScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CombatScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/NewMainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NewMainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/1125975.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/1125975.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/Home.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/Home.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/art-nebo-vozdushnyy-boy-pobeda.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/art-nebo-vozdushnyy-boy-pobeda.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/clickCursor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/clickCursor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/cursor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/cursor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/cursor2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/cursor2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/istockphoto-1362422378-170667a.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/istockphoto-1362422378-170667a.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/kisspng-medicine-medical-cannabis-physician-health-care-cl-free-high-quality-plus-icon-5ab0d3d22b5001.1286129315215380021774.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/kisspng-medicine-medical-cannabis-physician-health-care-cl-free-high-quality-plus-icon-5ab0d3d22b5001.1286129315215380021774.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/pexels-photo-6985265.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/pexels-photo-6985265.jpeg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiAssets/others/pngegg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiAssets/others/pngegg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/shopping/script/DashboardController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/shopping/script/DashboardController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680406391163</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ido updates">
+      <created>1680835208325</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680835208325</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello world" />
     <MESSAGE value="Top Bar further update and add more screens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Top Bar further update and add more screens" />
+    <MESSAGE value="ido updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="ido updates" />
   </component>
 </project>
