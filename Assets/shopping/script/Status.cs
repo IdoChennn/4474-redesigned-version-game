@@ -120,7 +120,7 @@ public class Status : MonoBehaviour
 
         // Update the text component with the file contents
         enginePowerComponent.text = enginePower.ToString();
-        moneyComponent.text = defaultMoney.ToString(); ;
+        moneyComponent.text = "999,999,999";
         maneuverabilityComponent.text = "100";
         hpComponent.text = hpIncrement.ToString();
     }
