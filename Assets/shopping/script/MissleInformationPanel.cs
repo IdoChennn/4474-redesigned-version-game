@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using TMPro;
 
 public class MissleInformationPanel : MonoBehaviour, IPointerClickHandler
 {
@@ -10,6 +11,40 @@ public class MissleInformationPanel : MonoBehaviour, IPointerClickHandler
     public GameObject missileInfomationPanel;
     public Button purchase;
     //public Text labelPrefab;
+
+    public TextMeshProUGUI moneyComponent;
+    public TextMeshProUGUI enginePowerComponent;
+    public TextMeshProUGUI maneuverabilityComponent;
+    public TextMeshProUGUI hpComponent;
+
+    public void updateMoney(string money)
+    {
+        string temp = moneyComponent.text;
+        float result = float.Parse(temp) + float.Parse(money);
+        if (result <= 0)
+        {
+            result = 0;
+        }
+        moneyComponent.text = result.ToString();
+    }
+    public void updateEngine(string money)
+    {
+        string temp = enginePowerComponent.text;
+        float result = float.Parse(temp) + float.Parse(money);
+        enginePowerComponent.text = result.ToString();
+    }
+    public void updateManeuverability(string money)
+    {
+        string temp = maneuverabilityComponent.text;
+        float result = float.Parse(temp) + float.Parse(money);
+        maneuverabilityComponent.text = result.ToString();
+    }
+    public void updateHP(string money)
+    {
+        string temp = enginePowerComponent.text;
+        float result = float.Parse(temp) + float.Parse(money);
+        enginePowerComponent.text = result.ToString();
+    }
 
     private void Start()
     {
@@ -75,6 +110,7 @@ public class MissleInformationPanel : MonoBehaviour, IPointerClickHandler
 
         // Get the Image component of the clicked GameObject
         Image clickedImage = clickedObject.GetComponent<Image>();
+        Debug.Log("Button name: " + eventData.pointerPress.name);
 
         // Check if an Image component was found
         if (clickedImage != null)
@@ -112,34 +148,50 @@ public class MissleInformationPanel : MonoBehaviour, IPointerClickHandler
         if (clickedImage.name == "Missile1")
         {
             activeMINFO("Missile1Info");
+            updateManeuverability("20");
+            updateMoney("-9900");
         }
         else if (clickedImage.name == "Missile2")
         {
             activeMINFO("Missile2Info");
+            updateEngine("11");
+            updateManeuverability("10");
         }
         else if (clickedImage.name == "Missile3")
         {
             activeMINFO("Missile3Info");
+            updateEngine("8");
+            updateManeuverability("9");
         }
         else if (clickedImage.name == "Missile4")
         {
             activeMINFO("Missile4Info");
+            
+            updateManeuverability("6");
         }
         else if (clickedImage.name == "Missile5")
         {
             activeMINFO("Missile5Info");
+            
+            updateManeuverability("29");
         }
         else if (clickedImage.name == "Missile6")
         {
             activeMINFO("Missile6Info");
+            
+            updateManeuverability("25");
         }
         else if (clickedImage.name == "Missile7")
         {
             activeMINFO("Missile7Info");
+            
+            updateManeuverability("20");
         }
         else if (clickedImage.name == "Missile8")
         {
             activeMINFO("Missile8Info");
+            
+            updateManeuverability("30");
         }
     }
 
