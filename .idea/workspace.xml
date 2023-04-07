@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="974c2e79-4ae7-46d5-a6ee-78036267b735" name="Changes" comment="Add online menu and pages" />
+    <list default="true" id="974c2e79-4ae7-46d5-a6ee-78036267b735" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_3_28_20_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_3_28_20_43__Changes_.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +12,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="idoWork" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,13 +21,18 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NTeKgcSL6KboKa5X1BYbWbKKZb" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cys17/Desktop/Year3 Study/4474/project/project&quot;
+  }
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,7 +47,6 @@
       <workItem from="1680049935523" duration="2502000" />
       <workItem from="1680245136452" duration="387000" />
       <workItem from="1680406299105" duration="1459000" />
-      <workItem from="1680477708824" duration="518000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1679696444728</created>
@@ -70,21 +76,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680406391163</updated>
     </task>
-    <task id="LOCAL-00005" summary="Add online menu and pages">
-      <created>1680475681386</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1680475681386</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add online menu and pages">
-      <created>1680476829844</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1680476829844</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +93,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="IdoNewWorkUpdated" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -116,7 +108,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello world" />
     <MESSAGE value="Top Bar further update and add more screens" />
-    <MESSAGE value="Add online menu and pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add online menu and pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Top Bar further update and add more screens" />
   </component>
 </project>
