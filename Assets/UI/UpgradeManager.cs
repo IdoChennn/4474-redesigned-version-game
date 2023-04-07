@@ -447,4 +447,19 @@ public class UpgradeManager : MonoBehaviour
     {
         return hp;
     }
+
+    public float GetEnginePowerLevel()
+    {
+        return enginePowerLevelFloat;
+    }
+
+    public float GetManeuverabilityLevelFloat()
+    {
+        return maneuverabilityLevelFloat;
+    }
+
+    public float GetHpLevelFloat()
+    {
+        return hpLevelFloat;
+    }
 }
