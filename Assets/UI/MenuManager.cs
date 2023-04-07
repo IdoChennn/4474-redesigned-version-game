@@ -66,9 +66,14 @@ public class MenuManager : MonoBehaviour
         menuObjectList[menuOption].SetActive(true);
         foreach(Button menuButton in buttonList)
         {
-            menuButton.interactable = true;
+            if (menuButton != null)
+                menuButton.interactable = true;
         }
-        buttonList[menuOption].interactable = false;
+        if (buttonList.Count != 0)
+        {
+            if (buttonList[menuOption] != null)
+                buttonList[menuOption].interactable = false;
+        }
     }
 
     public void ClickHome()

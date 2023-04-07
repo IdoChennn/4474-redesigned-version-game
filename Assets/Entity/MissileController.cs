@@ -41,7 +41,7 @@ public class MissileController : MonoBehaviour
     {
         if (timer > safeTime)
         {
-            if (other.attachedRigidbody.gameObject.GetComponent<HealthManager>() != null)
+            if (other != null && other.attachedRigidbody.gameObject.GetComponent<HealthManager>() != null)
             {
                 Debug.Log("Hit");
                 other.attachedRigidbody.gameObject.GetComponent<HealthManager>().ReduceHP(damage);
